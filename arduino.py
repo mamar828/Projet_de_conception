@@ -28,7 +28,7 @@ while True:
             r_photo = (v_0 - v_1) / current
 
             # Set ratio of resistance between 1 and 0 (1 is brightest, 0 is darkest) to control voltage output
-            max_ratio = 1 - (r_photo - 5000) / 15000
+            max_ratio = 1 - (r_photo - 1800) / 14000
             if max_ratio < 0: max_ratio = 0
             elif max_ratio > 1: max_ratio = 1
 
